@@ -1,0 +1,28 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plammel/Twitter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plammel/Twitter/issues"
+  },
+  "homepage": "https://github.com/plammel/Twitter#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.15.5",
+    "mongoose": "^4.11.13",
+    "twit": "^2.2.9"
+  }
+}
